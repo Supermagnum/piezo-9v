@@ -13,7 +13,7 @@ Digi-Key Part Number 2389-CF891-05-02-ND is OK.
 	
 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things. 
-You will need one piezoelectric disk for that, mounted in a metal box. Non electric conductive super glue is useable for that. Just glue it to a flat surface. 
+You will need one piezoelectric disk for that, mounted in a metal box made of thin metal. Non electric conductive super glue is useable for that. Just glue it to a flat surface. 
 The piezoelectric disk should be electrically insulated from the metal box.
 
 Schematic diagram:
