@@ -1,9 +1,10 @@
 # piezo-9v
 A small PCB for pizoelectric amplifier, runs on 9V.
+It should have battery capacity for around 5 hours.
 
 It's fairly easy and straight forward to solder the components to the circuit board, a nice pointy soldering iron, solder, a magnifying glass, and a ohm or multimeter is all that is needed. 
 Of course one needs a suitable metal box, and the circuit boards components must not come in contact with the metal box. 
-That will cause short circuit, so it's best mounted on conducting stand offs. 
+That will cause short circuit, so it's best mounted on conducting stand offs because the corner pads on the PCB board must be connected to the metal box.
 Also, use the magnifying glass to check that no one of the soldering pads has been bridged.
 
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things. 
@@ -12,6 +13,7 @@ The piezoelectric disk should be electrically insulated from the metal box.
 
 Schematic diagram:
 https://github.com/Supermagnum/piezo-9v/blob/main/9v-preamp.pdf
+D1 is a LED that lights up when it's switched on.
 
 Aisler PCB and components:
 https://aisler.net/p/BZUXMWVU
