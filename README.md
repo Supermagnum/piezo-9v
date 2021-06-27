@@ -21,6 +21,9 @@ Component side of PCB:.https://github.com/Supermagnum/piezo-9v/blob/main/front.j
 Some methods of mounting a piezoelectric disk can be found here:
 https://locusonus.org/wiki/index.php?page=Hydrophone.en
 
+Around 40 dB gain should be nice for hydrophone usage.
+
+
 
 
 
