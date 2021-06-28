@@ -6,7 +6,7 @@ It's fairly easy and straight forward to solder the components to the circuit bo
 
 Of course one needs a suitable metal box, and the circuit boards components must not come in contact with the metal box. 
 That will cause short circuit, so it's best mounted on conducting stand offs because the corner pads on the PCB board must be connected to the metal box.
-Also, use the magnifying glass to check that no one of the soldering pads has been bridged.
+Check that no one of the soldering pads has been bridged before applying power.
 
 A shielded cable must be used to connect to the piezoelectric element.
 It must have a braided shield and two conductors. 
