@@ -25,6 +25,9 @@ https://aisler.net/p/BZUXMWVU
 
 Component side of PCB:.https://github.com/Supermagnum/piezo-9v/blob/main/front.jpg
 
+Back side:
+https://github.com/Supermagnum/piezo-9v/blob/main/back.jpg
+
 Some methods of mounting a piezoelectric disk can be found here:
 https://locusonus.org/wiki/index.php?page=Hydrophone.en
 
