@@ -33,6 +33,9 @@ https://github.com/Supermagnum/piezo-9v/blob/main/front.jpg
 Back side:
 https://github.com/Supermagnum/piezo-9v/blob/main/back.jpg
 
+Gerber files:
+https://github.com/Supermagnum/piezo-9v/tree/main/gerbers
+
 Some methods of mounting a piezoelectric disk can be found here:
 https://locusonus.org/wiki/index.php?page=Hydrophone.en
 Use a metal box with thin walls.
