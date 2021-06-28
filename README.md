@@ -23,6 +23,10 @@ D1 is a LED that lights up when it's switched on.
 Aisler PCB and components:
 https://aisler.net/p/BZUXMWVU
 
+Digikey part list:
+https://github.com/Supermagnum/piezo-9v/blob/main/9vpiezo-digikey-BOM.csv
+( does NOT include the PCB )
+
 Component side of PCB:.https://github.com/Supermagnum/piezo-9v/blob/main/front.jpg
 
 Back side:
