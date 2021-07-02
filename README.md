@@ -9,9 +9,10 @@ That will cause short circuit, so it's best mounted on conducting stand offs bec
 Check that no one of the soldering pads has been bridged before applying power.
 
 A shielded cable must be used to connect to the piezoelectric element.
-It must have a braided shield and two conductors. 
-Digi-Key Part Number 2389-CF891-05-02-ND is OK.
-	
+NOTE:
+The XLR 3 pin plug has a solder lug for the shield for a reason. It is my opinion that a shielded cable with 2 conductors inside is the best.
+Suggested cable: Digi-Key Part Number: 30-01225-5-ND
+
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things. 
 You will need one piezoelectric disk for that, mounted in a metal box made of thin metal. Non electric conductive super glue is useable for that. Just glue it to a flat surface. 
 The piezoelectric disk should be electrically insulated from the metal box.
@@ -40,6 +41,7 @@ Some methods of mounting a piezoelectric disk can be found here:
 https://locusonus.org/wiki/index.php?page=Hydrophone.en
 Use a metal box with thin walls.
 Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
+For flowing water a streamlined bulb is best, it reduces flow noise.
 
 Around 35 to 40 dB gain should be nice for hydrophone usage.
 
