@@ -17,6 +17,9 @@ It can be used for a reverb plate, listening to the insides of a engine,recordin
 You will need one piezoelectric disk for that, mounted in a metal box made of thin metal. Non electric conductive super glue is useable for that. Just glue it to a flat surface. 
 The piezoelectric disk should be electrically insulated from the metal box.
 
+Picture of a piezoelectric disc, with red wire for positive polarity and black for negative: https://github.com/Supermagnum/piezo-balanced/blob/main/Piezo-element-6.jpg
+
+
 Schematic diagram:
 https://github.com/Supermagnum/piezo-9v/blob/main/9v-preamp.pdf
 D1 is a LED that lights up when it's switched on.
