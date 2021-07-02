@@ -37,6 +37,9 @@ https://github.com/Supermagnum/piezo-9v/blob/main/front.jpg
 Back side:
 https://github.com/Supermagnum/piezo-9v/blob/main/back.jpg
 
+Picture with sockets for the opamps, capacitators,resistors and diodes installed:
+https://github.com/Supermagnum/piezo-9v/blob/main/9v-preamp-components.jpg
+
 Gerber files:
 https://github.com/Supermagnum/piezo-9v/tree/main/gerbers
 
