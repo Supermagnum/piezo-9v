@@ -762,6 +762,11 @@ Wire Wire Line
 	1750 5700 1800 5700
 Text Notes 1050 5750 0    50   ~ 0
 TO SHIELD
-Text GLabel 3400 5400 3    50   Input ~ 0
+Text GLabel 3800 5400 3    50   Input ~ 0
 V-
+Text GLabel 10850 1100 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	10850 1100 10850 1150
+Connection ~ 10850 1150
 $EndSCHEMATC
