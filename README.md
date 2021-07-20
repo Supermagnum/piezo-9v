@@ -4,6 +4,9 @@ It should have battery capacity for around 5 hours.
 
 It's fairly easy and straight forward to solder the components to the circuit board, a nice pointy soldering iron, solder,and a ohm or multimeter is all that is needed. 
 
+Please use 0,5 W metal film resistors with 1% tolerance or better and audio quality capacitors.
+C0G (NP0) or X7R capacitors is very good.
+
 Of course one needs a suitable metal box, and the circuit boards components must not come in contact with the metal box. 
 That will cause short circuit, so it's best mounted on conducting stand offs because the corner pads on the PCB board must be connected to the metal box.
 Check that no one of the soldering pads has been bridged before applying power.
