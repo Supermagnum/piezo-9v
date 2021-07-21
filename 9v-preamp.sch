@@ -147,10 +147,10 @@ F 3 "~" H 4100 1400 50  0001 C CNN
 	1    4100 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 4350 1400 2    50   ~ 0
-pin2
-Text Notes 4350 1700 2    50   ~ 0
-pin3
+Text Notes 4250 1450 2    50   ~ 0
+TIP
+Text Notes 4400 1750 2    50   ~ 0
+SLEEVE
 Wire Wire Line
 	1850 1500 1950 1500
 $Comp

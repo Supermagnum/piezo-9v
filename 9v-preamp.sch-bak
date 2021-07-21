@@ -42,50 +42,6 @@ Piezo electric amplifier with mono headphone output jack.
 Text Notes 4500 1550 2    50   ~ 0
 Audio out
 $Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 60C33F4A
-P 2000 6450
-F 0 "J6" H 2028 6476 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2028 6385 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 6450 50  0001 C CNN
-F 3 "~" H 2000 6450 50  0001 C CNN
-	1    2000 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 60C346FD
-P 2000 6650
-F 0 "J7" H 2028 6676 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2028 6585 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 6650 50  0001 C CNN
-F 3 "~" H 2000 6650 50  0001 C CNN
-	1    2000 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 60C34BAC
-P 2000 6850
-F 0 "J8" H 2028 6876 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2028 6785 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 6850 50  0001 C CNN
-F 3 "~" H 2000 6850 50  0001 C CNN
-	1    2000 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 60C36D7A
-P 2000 7100
-F 0 "J9" H 2028 7126 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2028 7035 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 7100 50  0001 C CNN
-F 3 "~" H 2000 7100 50  0001 C CNN
-	1    2000 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 60D0B00F
 P 7150 1700
@@ -101,25 +57,20 @@ Wire Wire Line
 Wire Wire Line
 	6300 2050 6300 2600
 Wire Wire Line
-	6300 2600 6650 2600
-Wire Wire Line
-	6300 2050 6050 2050
+	6300 2050 6100 2050
 Wire Wire Line
 	7500 2600 7500 2650
 $Comp
 L power:GND #PWR06
 U 1 1 60D1FD91
-P 6650 2650
-F 0 "#PWR06" H 6650 2400 50  0001 C CNN
-F 1 "GND" H 6655 2477 50  0000 C CNN
-F 2 "" H 6650 2650 50  0001 C CNN
-F 3 "" H 6650 2650 50  0001 C CNN
-	1    6650 2650
+P 6100 2150
+F 0 "#PWR06" H 6100 1900 50  0001 C CNN
+F 1 "GND" H 6105 1977 50  0000 C CNN
+F 2 "" H 6100 2150 50  0001 C CNN
+F 3 "" H 6100 2150 50  0001 C CNN
+	1    6100 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 2650 6650 2600
-Connection ~ 6650 2600
 Wire Wire Line
 	6650 1100 6650 800 
 $Comp
@@ -222,28 +173,6 @@ NoConn ~ 2250 1700
 NoConn ~ 2250 1100
 Wire Wire Line
 	8850 1150 8850 1500
-Wire Wire Line
-	1800 6450 1800 6650
-Wire Wire Line
-	1800 6650 1800 6850
-Connection ~ 1800 6650
-Wire Wire Line
-	1800 6850 1800 7100
-Connection ~ 1800 6850
-$Comp
-L power:Earth #PWR09
-U 1 1 60D710DF
-P 1800 7250
-F 0 "#PWR09" H 1800 7000 50  0001 C CNN
-F 1 "Earth" H 1800 7100 50  0001 C CNN
-F 2 "" H 1800 7250 50  0001 C CNN
-F 3 "~" H 1800 7250 50  0001 C CNN
-	1    1800 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 7250 1800 7100
-Connection ~ 1800 7100
 $Comp
 L Amplifier_Audio:LM386 U1
 U 1 1 60D34ED9
@@ -400,8 +329,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 800  7300 800 
 Connection ~ 7500 1150
-Wire Wire Line
-	6650 2600 7150 2600
 $Comp
 L Device:C C9
 U 1 1 5F26F275
@@ -769,4 +696,105 @@ VCC
 Wire Wire Line
 	10850 1100 10850 1150
 Connection ~ 10850 1150
+Wire Notes Line
+	5600 500  5600 2800
+Wire Notes Line
+	5600 2800 11150 2800
+Wire Notes Line
+	11150 2800 11150 500 
+Wire Notes Line
+	11150 500  5600 500 
+Text Notes 7700 600  0    50   ~ 0
+Voltage noise filtering and decoupling, with LED.
+Connection ~ 1800 7100
+Wire Wire Line
+	1800 7250 1800 7100
+$Comp
+L power:Earth #PWR09
+U 1 1 60D710DF
+P 1800 7250
+F 0 "#PWR09" H 1800 7000 50  0001 C CNN
+F 1 "Earth" H 1800 7100 50  0001 C CNN
+F 2 "" H 1800 7250 50  0001 C CNN
+F 3 "~" H 1800 7250 50  0001 C CNN
+	1    1800 7250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 6850
+Wire Wire Line
+	1800 6850 1800 7100
+Connection ~ 1800 6650
+Wire Wire Line
+	1800 6650 1800 6850
+Wire Wire Line
+	1800 6450 1800 6650
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 60C36D7A
+P 2000 7100
+F 0 "J9" H 2028 7126 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2028 7035 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 7100 50  0001 C CNN
+F 3 "~" H 2000 7100 50  0001 C CNN
+	1    2000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 60C34BAC
+P 2000 6850
+F 0 "J8" H 2028 6876 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2028 6785 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 6850 50  0001 C CNN
+F 3 "~" H 2000 6850 50  0001 C CNN
+	1    2000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 60C346FD
+P 2000 6650
+F 0 "J7" H 2028 6676 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2028 6585 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 6650 50  0001 C CNN
+F 3 "~" H 2000 6650 50  0001 C CNN
+	1    2000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 60C33F4A
+P 2000 6450
+F 0 "J6" H 2028 6476 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2028 6385 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2000 6450 50  0001 C CNN
+F 3 "~" H 2000 6450 50  0001 C CNN
+	1    2000 6450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	600  600  600  7650
+Wire Notes Line
+	600  7650 6700 7650
+Wire Notes Line
+	6700 7650 6700 5850
+Wire Notes Line
+	6700 5850 7000 5850
+Wire Notes Line
+	7000 5850 7000 2950
+Wire Notes Line
+	7000 2950 5450 2950
+Wire Notes Line
+	5450 2950 5450 600 
+Wire Notes Line
+	5450 600  600  600 
+Text Notes 1050 700  0    50   ~ 0
+Preamplifier and impedance matcher, with  voltage spike protection diodes and amplifier for headphone.
+Wire Wire Line
+	6300 2600 7150 2600
+Wire Wire Line
+	6100 2150 6100 2050
+Connection ~ 6100 2050
+Wire Wire Line
+	6100 2050 6050 2050
 $EndSCHEMATC
