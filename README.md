@@ -16,6 +16,9 @@ NOTE:
 The XLR 3 pin plug has a solder lug for the shield for a reason. It is my opinion that a shielded cable with 2 conductors inside is the best.
 Suggested cable: Digi-Key Part Number: 30-01225-5-ND
 
+The sensivity can be made adjustable if a rotary pitentiometer is used to replace R7.
+A nice one is : PDB241-S420K-103B0 Digi-Key Part Number PDB241-S420K-103B0-ND. COnnect one end of the terminals to one of the R7 solder pints, and the middle terminal to the other.
+
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things. 
 You will need one piezoelectric disk for that, mounted in a metal box made of thin metal. Non electric conductive super glue is useable for that. Just glue it to a flat surface. 
 The piezoelectric disk should be electrically insulated from the metal box.
@@ -53,9 +56,5 @@ Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alte
 For flowing water a streamlined bulb is best, it reduces flow noise.
 
 Around 35 to 40 dB gain should be nice for hydrophone usage.
-
-
-
-
 
 
