@@ -53,7 +53,7 @@ https://github.com/Supermagnum/piezo-9v/tree/main/gerbers
 Some methods of mounting a piezoelectric disk can be found here:
 https://locusonus.org/wiki/index.php?page=Hydrophone.en
 Use a metal box with thin walls.
-Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs.
+Commercial ones uses kerosene oil, so olive oil or sunflower oil is a great alternative as it will not pollute the environment if any leaks occurs. Aquarium silicone can also be used.
 For flowing water a streamlined bulb is best, it reduces flow noise.
 
 Around 35 to 40 dB gain should be nice for hydrophone usage.
