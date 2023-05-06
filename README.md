@@ -17,10 +17,12 @@ It is my opinion that a shielded cable with 2 conductors inside is the best.
 Suggested cable: Digi-Key Part Number: 30-01225-5-ND
 
 The sensivity can be made adjustable if a rotary potentiometer is used to replace R7.
-A nice one is : Digi-Key Part Number 3310Y-001-103L-ND . 
+A nice one is : Digi-Key Part Number 310Y-001-103L-ND. 
 Connect one end of the terminals to one of the R7 solder points, and the middle terminal to the other. 
+
 It can be used for a reverb plate, listening to the insides of a engine,recording the sound of vibrating things. 
-You will need one piezoelectric disk for that, mounted in a metal box made of thin metal. Non electric conductive super glue is useable for that. Just glue it to a flat surface. 
+You will need one piezoelectric disk for that, mounted in a metal box made of thin metal. Non electric conductive super glue is useable for that. 
+Just glue it to a flat surface. 
 The piezoelectric disk should be electrically insulated from the metal box.
 
 Picture of a piezoelectric disc, with red wire for positive polarity and black for negative: https://github.com/Supermagnum/piezo-balanced/blob/main/Piezo-element-6.jpg
